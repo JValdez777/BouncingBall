@@ -1,0 +1,14 @@
+# Target labels
+ ogg-populate
+# Source files and their labels
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule
+/Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule
