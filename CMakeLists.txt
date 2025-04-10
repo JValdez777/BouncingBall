@@ -16,6 +16,8 @@ add_executable(main src/main.cpp
         src/Ball.cpp
         src/Ball.h
         src/Paddle.cpp
-        src/Paddle.h)
+        src/Paddle.h
+        src/Card.cpp
+        src/Card.h)
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics)

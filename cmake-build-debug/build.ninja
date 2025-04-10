@@ -73,6 +73,14 @@ build CMakeFiles/main.dir/src/Paddle.cpp.o: CXX_COMPILER__main_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
+build CMakeFiles/main.dir/src/Card.cpp.o: CXX_COMPILER__main_unscanned_Debug /Users/jv777/CLionProjects/BouncingBall/src/Card.cpp || cmake_object_order_depends_target_main
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles/main.dir/src/Card.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -isystem /Users/jv777/CLionProjects/BouncingBall/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -81,7 +89,7 @@ build CMakeFiles/main.dir/src/Paddle.cpp.o: CXX_COMPILER__main_unscanned_Debug /
 #############################################
 # Link the executable bin/main
 
-build bin/main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/Ball.cpp.o CMakeFiles/main.dir/src/Paddle.cpp.o | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework _deps/sfml-build/lib/libfreetyped.a || _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+build bin/main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/Ball.cpp.o CMakeFiles/main.dir/src/Paddle.cpp.o CMakeFiles/main.dir/src/Card.cpp.o | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework _deps/sfml-build/lib/libfreetyped.a || _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -ObjC  -framework OpenGL  -framework Foundation  -framework AppKit  -framework IOKit  -framework Carbon  _deps/sfml-build/lib/libfreetyped.a
   OBJECT_DIR = CMakeFiles/main.dir
